@@ -69,6 +69,7 @@ const Anuncios = () => {
     console.log(result)
     if (!result.id) {
       localStorage.setItem('ERR',result.message)
+      localStorage.setItem('PAID',payment)
       window.location.reload()
     } else {
         localStorage.setItem('PAID',"done")
