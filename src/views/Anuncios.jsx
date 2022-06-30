@@ -72,9 +72,9 @@ const Anuncios = () => {
       localStorage.setItem('PAID',payment)
       window.location.reload()
     } else {
-        localStorage.setItem('PAID',"done")
         resetForm();
         añadirImagen(result.id)
+        localStorage.setItem('PAID',"done")
         window.location.reload();
     }
   }

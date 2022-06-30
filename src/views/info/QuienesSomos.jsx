@@ -33,6 +33,27 @@ const QuienesSomos = () => {
                             todo un catálogo de opciones acorde con sus necesidades.
                         </p>
                         <hr className="separador"/>
+                        <h3 className="welcome1 fw-bold">Desarrolladores de este proyecto</h3>
+                        <p className="w-75 mx-auto">
+                            María Paula Calderón Jaimes
+                            <a className="badge" target="_blank" href="mailto:macalderonj@unal.edu.co">macalderonj@unal.edu.co</a>
+                            <br/>
+                            <br/>
+                            Juan Pablo Bustamante Moreno
+                            <a className="badge" target="_blank" href="mailto:jubustamantem@unal.edu.co">jubustamantem@unal.edu.co</a>
+                            <br/>
+                            <br/>
+                            Nicolás Romero Niño
+                            <a className="badge" target="_blank" href="mailto:nromeron@unal.edu.co">nromeron@unal.edu.co</a>
+                            <br/>
+                            <br/>
+                            Juan Camilo García Martínez
+                            <a className="badge" target="_blank" href="mailto:juagarciama@unal.edu.co">juagarciama@unal.edu.co</a>
+                            <br/>
+                            <br/>
+                            David Alexander Zambrano Martínez
+                            <a className="badge" target="_blank" href="mailto:dzambranob@unal.edu.co">dzambranob@unal.edu.co</a>
+                        </p>
                     </div>
                 </>
             )
