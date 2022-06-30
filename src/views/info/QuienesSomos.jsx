@@ -34,7 +34,7 @@ const QuienesSomos = () => {
                         </p>
                         <hr className="separador"/>
                         <h3 className="welcome1 fw-bold">Desarrolladores de este proyecto</h3>
-                        <p className="w-75 mx-auto">
+                        <div className="w-75 mx-auto">
                             María Paula Calderón Jaimes
                             <a className="badge" target="_blank" href="mailto:macalderonj@unal.edu.co">macalderonj@unal.edu.co</a>
                             <br/>
@@ -51,9 +51,9 @@ const QuienesSomos = () => {
                             <a className="badge" target="_blank" href="mailto:juagarciama@unal.edu.co">juagarciama@unal.edu.co</a>
                             <br/>
                             <br/>
-                            David Alexander Zambrano Martínez
+                            David Alexander Zambrano Bohórquez
                             <a className="badge" target="_blank" href="mailto:dzambranob@unal.edu.co">dzambranob@unal.edu.co</a>
-                        </p>
+                        </div>
                     </div>
                 </>
             )
