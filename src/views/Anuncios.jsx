@@ -69,9 +69,8 @@ const Anuncios = () => {
     const result = await anuncia(inputs,user.sub.id);
     console.log(result)
     if (!result.id) {
-      notification["error"]({
-        message: result.message
-      });
+      localStorage.setItem('ERR',result.message)
+      window.location.reload()
     } else {
         resetForm();
         añadirImagen(result.id)
