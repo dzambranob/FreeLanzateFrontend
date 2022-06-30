@@ -64,7 +64,6 @@ const Anuncios = () => {
 
   const publish = async e => {
     localStorage.removeItem('PAID')
-    localStorage.setItem('PAID',"done")
     e.preventDefault();
     const result = await anuncia(inputs,user.sub.id);
     console.log(result)
@@ -72,6 +71,7 @@ const Anuncios = () => {
       localStorage.setItem('ERR',result.message)
       window.location.reload()
     } else {
+        localStorage.setItem('PAID',"done")
         resetForm();
         añadirImagen(result.id)
         window.location.reload();
